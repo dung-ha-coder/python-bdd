@@ -11,7 +11,7 @@ Feature: DuckDuckGo Web Browsing
 
   Scenario: Basic DuckDuckGo Search
     When the user searches for "panda"
-    Then results are shown for "panda"
+    Then results are shown for "pandaxxx"
 
 
   Scenario: Lengthy DuckDuckGo Search

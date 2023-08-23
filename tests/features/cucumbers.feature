@@ -14,7 +14,7 @@ Feature: Cucumber Basket
     Examples:
       | initial | some | total |
       | 0       | 3    | 3     |
-      | 2       | 4    | 6     |
+      | 2       | 4    | 7     |
       | 5       | 5    | 10    |
 
 
@@ -26,6 +26,6 @@ Feature: Cucumber Basket
 
     Examples:
       | initial | some | total |
-      | 8       | 3    | 5     |
+      | 8       | 3    | 4     |
       | 10      | 4    | 6     |
       | 7       | 0    | 7     |
