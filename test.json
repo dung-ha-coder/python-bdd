@@ -1,0 +1,752 @@
+[
+    {
+        "keyword": "Feature",
+        "uri": "features\\cucumbers.feature",
+        "name": "Cucumber Basket",
+        "id": "features\\cucumbers.feature",
+        "line": 2,
+        "description": "As a gardener,\nI want to carry cucumbers in a basket,\nSo that I don't drop them all.",
+        "tags": [
+            {
+                "name": "cucumber-basket",
+                "line": 1
+            }
+        ],
+        "elements": [
+            {
+                "keyword": "Scenario",
+                "id": "test_add_cucumbers_to_a_basket[0-3-3]",
+                "name": "Add cucumbers to a basket",
+                "line": 9,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "add",
+                        "line": 8
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"0\" cucumbers",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 178200
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"3\" cucumbers are added to the basket",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 102299
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"3\" cucumbers",
+                        "line": 12,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 92499
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_add_cucumbers_to_a_basket[2-4-6]",
+                "name": "Add cucumbers to a basket",
+                "line": 9,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "add",
+                        "line": 8
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"2\" cucumbers",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 151699
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"4\" cucumbers are added to the basket",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 89300
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"6\" cucumbers",
+                        "line": 12,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 86600
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_add_cucumbers_to_a_basket[5-5-10]",
+                "name": "Add cucumbers to a basket",
+                "line": 9,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "add",
+                        "line": 8
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"5\" cucumbers",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 1156399
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"5\" cucumbers are added to the basket",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 226299
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"10\" cucumbers",
+                        "line": 12,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 172999
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_remove_cucumbers_from_the_basket[8-3-5]",
+                "name": "Remove cucumbers from the basket",
+                "line": 22,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "remove",
+                        "line": 21
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"8\" cucumbers",
+                        "line": 23,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 178299
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"3\" cucumbers are removed from the basket",
+                        "line": 24,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 90599
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"5\" cucumbers",
+                        "line": 25,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 88400
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_remove_cucumbers_from_the_basket[10-4-6]",
+                "name": "Remove cucumbers from the basket",
+                "line": 22,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "remove",
+                        "line": 21
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"10\" cucumbers",
+                        "line": 23,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 177199
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"4\" cucumbers are removed from the basket",
+                        "line": 24,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 92399
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"6\" cucumbers",
+                        "line": 25,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 88499
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_remove_cucumbers_from_the_basket[7-0-7]",
+                "name": "Remove cucumbers from the basket",
+                "line": 22,
+                "description": "",
+                "tags": [
+                    {
+                        "name": "remove",
+                        "line": 21
+                    }
+                ],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the basket has \"7\" cucumbers",
+                        "line": 23,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 162500
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "\"0\" cucumbers are removed from the basket",
+                        "line": 24,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 94200
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the basket contains \"7\" cucumbers",
+                        "line": 25,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 84100
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "keyword": "Feature",
+        "uri": "features\\service.feature",
+        "name": "DuckDuckGo Instant Answer API",
+        "id": "features\\service.feature",
+        "line": 2,
+        "description": "As an application developer,\nI want to get instant answers for search terms via a REST API,\nSo that my app can get answers anywhere.",
+        "tags": [
+            {
+                "name": "duckduckgo",
+                "line": 1
+            },
+            {
+                "name": "service",
+                "line": 1
+            }
+        ],
+        "elements": [
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[panda]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"panda\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 247718300
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 257899
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"panda\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 1017100
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[python]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"python\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 192016899
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 271900
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"python\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 550400
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[platypus]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"platypus\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 177993999
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 281599
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"platypus\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 496400
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[peach]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"peach\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 199603400
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 245799
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"peach\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 505300
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[pineapple]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"pineapple\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 191448500
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 245000
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"pineapple\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 431599
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_api_query[papaya]",
+                "name": "Basic DuckDuckGo API Query",
+                "line": 8,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo API is queried with \"papaya\"",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 188562099
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "the response status code is \"200\"",
+                        "line": 10,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 249400
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "the response contains results for \"papaya\"",
+                        "line": 11,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 518499
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "keyword": "Feature",
+        "uri": "features\\web.feature",
+        "name": "DuckDuckGo Web Browsing",
+        "id": "features\\web.feature",
+        "line": 2,
+        "description": "As a web surfer,\nI want to find information online,\nSo I can learn new things and get tasks done.",
+        "tags": [
+            {
+                "name": "duckduckgo",
+                "line": 1
+            },
+            {
+                "name": "web",
+                "line": 1
+            }
+        ],
+        "elements": [
+            {
+                "keyword": "Scenario",
+                "id": "test_basic_duckduckgo_search",
+                "name": "Basic DuckDuckGo Search",
+                "line": 12,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo home page is displayed",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": ".0 = <list_iterator object at 0x000001F57FD34400>\n\n>   kwargs = {arg: kwargs[arg] if arg in kwargs else request.getfixturevalue(arg) for arg in args}\n\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pytest_bdd\\scenario.py:154: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:585: in getfixturevalue\n    fixturedef = self._get_active_fixturedef(argname)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:607: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:693: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:1069: in execute\n    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pluggy\\_hooks.py:433: in __call__\n    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pluggy\\_manager.py:112: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:1123: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:895: in call_fixture_func\n    fixture_result = next(generator)\ntests\\step_defs\\conftest.py:25: in browser\n    b = webdriver.Chrome()\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:49: in __init__\n    super().__init__(\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py:54: in __init__\n    super().__init__(\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:206: in __init__\n    self.start_session(capabilities)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:291: in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:346: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001F57FD36E30>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"session not created\",\"message\":\"session not created: This version of Chro...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x770C7B1E+286]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x770C7AEE+238]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif (\n            status in ErrorCode.INVALID_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER\n        ):\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114\nE       Current browser version is 116.0.5845.111 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nE       Stacktrace:\nE       Backtrace:\nE       \tGetHandleVerifier [0x007EA813+48355]\nE       \t(No symbol) [0x0077C4B1]\nE       \t(No symbol) [0x00685358]\nE       \t(No symbol) [0x006A61AC]\nE       \t(No symbol) [0x006A1EF3]\nE       \t(No symbol) [0x006A0579]\nE       \t(No symbol) [0x006D0C55]\nE       \t(No symbol) [0x006D093C]\nE       \t(No symbol) [0x006CA536]\nE       \t(No symbol) [0x006A82DC]\nE       \t(No symbol) [0x006A93DD]\nE       \tGetHandleVerifier [0x00A4AABD+2539405]\nE       \tGetHandleVerifier [0x00A8A78F+2800735]\nE       \tGetHandleVerifier [0x00A8456C+2775612]\nE       \tGetHandleVerifier [0x008751E0+616112]\nE       \t(No symbol) [0x00785F8C]\nE       \t(No symbol) [0x00782328]\nE       \t(No symbol) [0x0078240B]\nE       \t(No symbol) [0x00774FF7]\nE       \tBaseThreadInitThunk [0x75E000C9+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x770C7B1E+286]\nE       \tRtlGetAppContainerNamedObjectPath [0x770C7AEE+238]\n\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:245: SessionNotCreatedException",
+                            "duration": 3969181599
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "the user searches for \"panda\"",
+                        "line": 13,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "",
+                            "duration": 3599
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "results are shown for \"panda\"",
+                        "line": 14,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "",
+                            "duration": 2899
+                        }
+                    }
+                ]
+            },
+            {
+                "keyword": "Scenario",
+                "id": "test_lengthy_duckduckgo_search",
+                "name": "Lengthy DuckDuckGo Search",
+                "line": 17,
+                "description": "",
+                "tags": [],
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "the DuckDuckGo home page is displayed",
+                        "line": 9,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": ".0 = <list_iterator object at 0x000001F500989630>\n\n>   kwargs = {arg: kwargs[arg] if arg in kwargs else request.getfixturevalue(arg) for arg in args}\n\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pytest_bdd\\scenario.py:154: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:585: in getfixturevalue\n    fixturedef = self._get_active_fixturedef(argname)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:607: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:693: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:1069: in execute\n    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pluggy\\_hooks.py:433: in __call__\n    return self._hookexec(self.name, self._hookimpls, kwargs, firstresult)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\pluggy\\_manager.py:112: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:1123: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\_pytest\\fixtures.py:895: in call_fixture_func\n    fixture_result = next(generator)\ntests\\step_defs\\conftest.py:25: in browser\n    b = webdriver.Chrome()\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:49: in __init__\n    super().__init__(\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py:54: in __init__\n    super().__init__(\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:206: in __init__\n    self.start_session(capabilities)\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:291: in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:346: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001F500988C70>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"session not created\",\"message\":\"session not created: This version of Chro...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x770C7B1E+286]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x770C7AEE+238]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif (\n            status in ErrorCode.INVALID_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER\n        ):\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114\nE       Current browser version is 116.0.5845.111 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nE       Stacktrace:\nE       Backtrace:\nE       \tGetHandleVerifier [0x007EA813+48355]\nE       \t(No symbol) [0x0077C4B1]\nE       \t(No symbol) [0x00685358]\nE       \t(No symbol) [0x006A61AC]\nE       \t(No symbol) [0x006A1EF3]\nE       \t(No symbol) [0x006A0579]\nE       \t(No symbol) [0x006D0C55]\nE       \t(No symbol) [0x006D093C]\nE       \t(No symbol) [0x006CA536]\nE       \t(No symbol) [0x006A82DC]\nE       \t(No symbol) [0x006A93DD]\nE       \tGetHandleVerifier [0x00A4AABD+2539405]\nE       \tGetHandleVerifier [0x00A8A78F+2800735]\nE       \tGetHandleVerifier [0x00A8456C+2775612]\nE       \tGetHandleVerifier [0x008751E0+616112]\nE       \t(No symbol) [0x00785F8C]\nE       \t(No symbol) [0x00782328]\nE       \t(No symbol) [0x0078240B]\nE       \t(No symbol) [0x00774FF7]\nE       \tBaseThreadInitThunk [0x75E000C9+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x770C7B1E+286]\nE       \tRtlGetAppContainerNamedObjectPath [0x770C7AEE+238]\n\n..\\..\\.virtualenvs\\tau-pytest-bdd-YZgaS1li\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:245: SessionNotCreatedException",
+                            "duration": 3886887900
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "the user searches for the phrase:\nWhen in the Course of human events, it becomes necessary for one people\n to dissolve the political bands which have connected them with another,\n and to assume among the powers of the earth, the separate and equal\n station to which the Laws of Nature and of Nature's God entitle them,\n a decent respect to the opinions of mankind requires that they should\n declare the causes which impel them to the separation.",
+                        "line": 18,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "",
+                            "duration": 4100
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "one of the results contains \"Declaration of Independence\"",
+                        "line": 27,
+                        "match": {
+                            "location": ""
+                        },
+                        "result": {
+                            "status": "failed",
+                            "error_message": "",
+                            "duration": 2599
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
